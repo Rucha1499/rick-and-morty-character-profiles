@@ -1,4 +1,4 @@
-.card {
+.skeletonCard {
     position: relative;
     overflow: hidden;
     border: 1px solid #9BA4B5;
@@ -9,7 +9,7 @@
     gap:12px;
 }
 
-.card::before {
+.skeletonCard::before {
     content: "";
     position: absolute;
     top: 0;
@@ -27,7 +27,7 @@
     }
 }
 
-div {
+.skeletonCard div {
     border-radius: 8px;
 }
 
