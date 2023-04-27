@@ -1,0 +1,72 @@
+.card {
+    border: 1px solid #159895;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    font-size: 14px;
+    color: white;
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    background-color: #159895;
+    margin: 4px 0px;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px #57C5B6; 
+}
+
+.profileImage {
+    border-radius: 8px;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    gap:8px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 600;
+    color:white;
+    padding-bottom: 2px;
+}
+
+.species {
+    font-size: 14px;
+    font-weight: 600;
+    color:#159895;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+}
+
+.type {
+    font-size: 12px;
+    font-weight: 400;
+    color:#57C5B6;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+    border: transparent;
+    background-color: #57C5B6;
+    color: white;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 8px;
+    gap:12px;
+    cursor: pointer;
+}
+
