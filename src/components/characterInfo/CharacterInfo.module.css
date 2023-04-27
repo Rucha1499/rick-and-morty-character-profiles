@@ -1,0 +1,96 @@
+.personalInfo, .episodes {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 0 4px #57C5B6; 
+    color: white;
+    font-size: 18px;
+}
+
+.detailsPage {
+    margin-top: 60px;
+}
+
+@media(max-width:992px) {
+    .detailsPage {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .personalInfo {
+        width: 100%;
+        padding: 16px;
+    }
+
+    .episodes {
+        width: 100%;
+        padding: 16px;
+    }
+}
+
+@media(min-width:992px) {
+    .detailsPage {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    
+    .personalInfo {
+        width: 60%;
+        padding: 24px;
+    }
+
+    .episodes {
+        width: 40%;
+        padding: 24px;
+    }
+}
+
+.displayPicture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap:24px;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+.episodeHeader {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 24px;
+}
+
+.displayPicture img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    background-color: #159895;
+    margin: 24px 0px;
+}
+
+.personalInfo ul {
+    padding-left: 20px;
+}
+
+.episodes p {
+    font-size: 14px;
+}
+
+.episodeContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap:8px;
+    align-items: center;
+    margin-bottom: 16px;
+}
