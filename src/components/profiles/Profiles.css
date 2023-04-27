@@ -1,0 +1,29 @@
+.MuiPagination-ul {
+    justify-content: center;
+}
+
+.MuiButtonBase-root {
+    color: white !important;
+    border-radius: 8px !important;
+}
+
+.MuiGrid-root {
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+    padding: 0px !important;
+}
+
+p {
+    margin: 0px;
+}
+
+.header {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 16px;
+}
+
+.MuiPaginationItem-root {
+    color: white !important;
+}
