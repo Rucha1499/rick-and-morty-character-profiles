@@ -1,4 +1,3 @@
-
 import React from 'react';
 import SentimentSatisfiedAltRoundedIcon from '@mui/icons-material/SentimentSatisfiedAltRounded';
 import SentimentDissatisfiedRoundedIcon from '@mui/icons-material/SentimentDissatisfiedRounded';
@@ -44,7 +43,7 @@ const CharacterCard = (props) => {
 
       <div className={styles.information}>
         <LocationOnRoundedIcon fontSize="small" sx={{ color: '#FFFFFF' }} />
-        <p>{location}</p>
+        <p className={styles.location}>{location}</p>
       </div>
 
       <button type="button">
