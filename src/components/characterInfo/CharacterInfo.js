@@ -34,8 +34,8 @@ const CharacterInfo = () => {
               <div className={styles.displayPicture}>
                 <img src={characterInfo.image} alt="display" />
                 <p>{characterInfo.name}</p>
+                <div className={styles.divider} />
               </div>
-              <div className={styles.divider} />
               <p>DETAILS</p>
               <ul>
                 <li>
