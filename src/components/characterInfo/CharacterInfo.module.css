@@ -94,3 +94,15 @@
     align-items: center;
     margin-bottom: 16px;
 }
+
+@media(max-width:375px) {
+    .personalInfo {
+        max-height: 550px;
+    }
+}
+
+@media(min-width:375px) {
+    .personalInfo {
+        max-height: 490px;
+    }
+}
