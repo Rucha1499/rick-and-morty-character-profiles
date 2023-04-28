@@ -80,7 +80,7 @@ const CharacterInfo = () => {
               <div className={styles.episodeHeader}>FEATURED IN</div>
               {characterInfo.episode && characterInfo.episode.length > 0
                 ? characterInfo.episode.map((episode) => (
-                  <div className={styles.episodeContainer}>
+                  <div className={styles.episodeContainer} key={episode}>
                     <MovieCreationRoundedIcon fontSize="small" sx={{ color: '#57C5B6' }} />
                     <p key={episode}>
                       {episode}
