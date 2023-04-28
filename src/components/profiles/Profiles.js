@@ -32,22 +32,32 @@ const Profiles = () => {
   };
 
   useEffect(() => {
-    setCharactersData(null);
+    setCharactersData([]);
     fetchCharactersData();
   }, [page]);
 
   return (
     <Container fixed>
       <div className="header">
-        Showing
-        {' '}
-        {visibleCharactersCount}
-        {' '}
-        out of
-        {' '}
-        {totalCharacters}
-        {' '}
-        total characters
+        <p>
+          Showing
+          {' '}
+          {visibleCharactersCount}
+          {' '}
+          out of
+          {' '}
+          {totalCharacters}
+          {' '}
+          total characters
+
+        </p>
+        <p className="pageCount">
+          Page
+          {' '}
+          {page}
+          {' '}
+          / 42
+        </p>
       </div>
       <Box sx={{ flexGrow: 1, margin: '60px 0px' }}>
         <Grid
